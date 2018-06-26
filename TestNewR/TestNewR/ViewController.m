@@ -15,8 +15,6 @@
 #import "Mp3RecordWriter.h"
 #import "MLAudioMeterObserver.h"
 
-#import "MLAudioPlayer.h"
-#import "AmrPlayerReader.h"
 
 @interface ViewController ()<AVAudioPlayerDelegate,AVAudioRecorderDelegate>
 
@@ -29,8 +27,6 @@
 @property (nonatomic, strong) MLAudioMeterObserver *meterObserver;
 
 @property (retain, nonatomic) AVAudioPlayer *audioPlayer;
-
-@property(retain,nonatomic)MLAudioPlayer *mlPlayer;
 
 @end
 
@@ -136,18 +132,6 @@
     [_audioPlayer play];
 
 
-//    _mlPlayer = [[MLAudioPlayer alloc]init];
-//    AmrPlayerReader *amrReader = [[AmrPlayerReader alloc]init];
-//    _mlPlayer.fileReaderDelegate = amrReader;
-//    _mlPlayer.receiveErrorBlock = ^(NSError *error){
-//
-//        [[[UIAlertView alloc]initWithTitle:@"错误" message:error.userInfo[NSLocalizedDescriptionKey] delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil]show];
-//    };
-//    _mlPlayer.receiveStoppedBlock = ^{
-//    };
-//    [_mlPlayer startPlaying];
-
-///var/mobile/Containers/Data/Application/DEB0075A-C521-47C5-AB37-3CD95B938DC2/Documents/record.mp3
 }
 
 - (long long) fileSizeAtPath:(NSString*) filePath{

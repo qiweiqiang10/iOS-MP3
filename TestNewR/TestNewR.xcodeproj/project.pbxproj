@@ -23,18 +23,6 @@
 		8939E17420DCFAA4005D3877 /* Mp3RecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939E16C20DCFAA4005D3877 /* Mp3RecordWriter.m */; };
 		8939E17720DCFAC9005D3877 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8939E17620DCFAC9005D3877 /* AVFoundation.framework */; };
 		8939E17920DCFAD4005D3877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8939E17820DCFAD4005D3877 /* UIKit.framework */; };
-		8946CE7520E07CFA00A88EF6 /* AmrPlayerReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946CE7220E07CFA00A88EF6 /* AmrPlayerReader.m */; };
-		8946CE7620E07CFA00A88EF6 /* MLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946CE7420E07CFA00A88EF6 /* MLAudioPlayer.m */; };
-		89BF167320E1D3DE008C40C4 /* 1024-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF166E20E1D3DD008C40C4 /* 1024-logo.png */; };
-		89BF167420E1D3DE008C40C4 /* logo-1024-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF166F20E1D3DD008C40C4 /* logo-1024-2.png */; };
-		89BF167520E1D3DE008C40C4 /* XZB_LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167020E1D3DD008C40C4 /* XZB_LaunchImage@2x.png */; };
-		89BF167620E1D3DE008C40C4 /* XZB_LaunchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167120E1D3DD008C40C4 /* XZB_LaunchImage@3x.png */; };
-		89BF167720E1D3DE008C40C4 /* XZB_LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167220E1D3DD008C40C4 /* XZB_LaunchImage.png */; };
-		89BF168220E1D8D3008C40C4 /* 1024-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF166E20E1D3DD008C40C4 /* 1024-logo.png */; };
-		89BF168320E1D8D3008C40C4 /* logo-1024-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF166F20E1D3DD008C40C4 /* logo-1024-2.png */; };
-		89BF168420E1D8D3008C40C4 /* XZB_LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167220E1D3DD008C40C4 /* XZB_LaunchImage.png */; };
-		89BF168520E1D8D3008C40C4 /* XZB_LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167020E1D3DD008C40C4 /* XZB_LaunchImage@2x.png */; };
-		89BF168620E1D8D3008C40C4 /* XZB_LaunchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF167120E1D3DD008C40C4 /* XZB_LaunchImage@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,16 +57,6 @@
 		8939E17820DCFAD4005D3877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8939E17A20DCFB2A005D3877 /* TestNewRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNewRPrefixHeader.pch; sourceTree = "<group>"; };
 		8939E17B20DCFB88005D3877 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
-		8946CE7120E07CFA00A88EF6 /* AmrPlayerReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmrPlayerReader.h; sourceTree = "<group>"; };
-		8946CE7220E07CFA00A88EF6 /* AmrPlayerReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmrPlayerReader.m; sourceTree = "<group>"; };
-		8946CE7320E07CFA00A88EF6 /* MLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAudioPlayer.h; sourceTree = "<group>"; };
-		8946CE7420E07CFA00A88EF6 /* MLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAudioPlayer.m; sourceTree = "<group>"; };
-		89BF166E20E1D3DD008C40C4 /* 1024-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1024-logo.png"; sourceTree = "<group>"; };
-		89BF166F20E1D3DD008C40C4 /* logo-1024-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-1024-2.png"; sourceTree = "<group>"; };
-		89BF167020E1D3DD008C40C4 /* XZB_LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XZB_LaunchImage@2x.png"; sourceTree = "<group>"; };
-		89BF167120E1D3DD008C40C4 /* XZB_LaunchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XZB_LaunchImage@3x.png"; sourceTree = "<group>"; };
-		89BF167220E1D3DD008C40C4 /* XZB_LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XZB_LaunchImage.png; sourceTree = "<group>"; };
-		89BF167C20E1D44A008C40C4 /* QiTestImg.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiTestImg.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BF167E20E1D44A008C40C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,13 +70,6 @@
 				8939E16E20DCFAA4005D3877 /* libopencore-amrwb.a in Frameworks */,
 				8939E17320DCFAA4005D3877 /* lame.framework in Frameworks */,
 				8939E16D20DCFAA4005D3877 /* libopencore-amrnb.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89BF167920E1D44A008C40C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				8939E13C20DCF469005D3877 /* TestNewR.app */,
-				89BF167C20E1D44A008C40C4 /* QiTestImg.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,18 +97,12 @@
 		8939E13E20DCF469005D3877 /* TestNewR */ = {
 			isa = PBXGroup;
 			children = (
-				8946CE7020E07CFA00A88EF6 /* MLAudioPlayer */,
 				8939E15520DCFAA4005D3877 /* MLAudioRecorder */,
 				8939E13F20DCF469005D3877 /* AppDelegate.h */,
 				8939E14020DCF469005D3877 /* AppDelegate.m */,
 				8939E14220DCF469005D3877 /* ViewController.h */,
 				8939E14320DCF469005D3877 /* ViewController.m */,
 				8939E17B20DCFB88005D3877 /* Debug.h */,
-				89BF166E20E1D3DD008C40C4 /* 1024-logo.png */,
-				89BF166F20E1D3DD008C40C4 /* logo-1024-2.png */,
-				89BF167220E1D3DD008C40C4 /* XZB_LaunchImage.png */,
-				89BF167020E1D3DD008C40C4 /* XZB_LaunchImage@2x.png */,
-				89BF167120E1D3DD008C40C4 /* XZB_LaunchImage@3x.png */,
 				8939E17A20DCFB2A005D3877 /* TestNewRPrefixHeader.pch */,
 				8939E14520DCF469005D3877 /* Main.storyboard */,
 				8939E14820DCF46A005D3877 /* Assets.xcassets */,
@@ -230,17 +194,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8946CE7020E07CFA00A88EF6 /* MLAudioPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				8946CE7120E07CFA00A88EF6 /* AmrPlayerReader.h */,
-				8946CE7220E07CFA00A88EF6 /* AmrPlayerReader.m */,
-				8946CE7320E07CFA00A88EF6 /* MLAudioPlayer.h */,
-				8946CE7420E07CFA00A88EF6 /* MLAudioPlayer.m */,
-			);
-			path = MLAudioPlayer;
-			sourceTree = "<group>";
-		};
 		89BF167D20E1D44A008C40C4 /* QiTestImg */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,23 +222,6 @@
 			productReference = 8939E13C20DCF469005D3877 /* TestNewR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89BF167B20E1D44A008C40C4 /* QiTestImg */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 89BF167F20E1D44A008C40C4 /* Build configuration list for PBXNativeTarget "QiTestImg" */;
-			buildPhases = (
-				89BF167820E1D44A008C40C4 /* Sources */,
-				89BF167920E1D44A008C40C4 /* Frameworks */,
-				89BF167A20E1D44A008C40C4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = QiTestImg;
-			productName = QiTestImg;
-			productReference = 89BF167C20E1D44A008C40C4 /* QiTestImg.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -296,9 +232,6 @@
 				ORGANIZATIONNAME = QiZhuo;
 				TargetAttributes = {
 					8939E13B20DCF469005D3877 = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					89BF167B20E1D44A008C40C4 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -317,7 +250,6 @@
 			projectRoot = "";
 			targets = (
 				8939E13B20DCF469005D3877 /* TestNewR */,
-				89BF167B20E1D44A008C40C4 /* QiTestImg */,
 			);
 		};
 /* End PBXProject section */
@@ -327,26 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BF167420E1D3DE008C40C4 /* logo-1024-2.png in Resources */,
 				8939E14C20DCF46A005D3877 /* LaunchScreen.storyboard in Resources */,
-				89BF167320E1D3DE008C40C4 /* 1024-logo.png in Resources */,
 				8939E14920DCF46A005D3877 /* Assets.xcassets in Resources */,
-				89BF167620E1D3DE008C40C4 /* XZB_LaunchImage@3x.png in Resources */,
-				89BF167520E1D3DE008C40C4 /* XZB_LaunchImage@2x.png in Resources */,
 				8939E14720DCF469005D3877 /* Main.storyboard in Resources */,
-				89BF167720E1D3DE008C40C4 /* XZB_LaunchImage.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89BF167A20E1D44A008C40C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89BF168220E1D8D3008C40C4 /* 1024-logo.png in Resources */,
-				89BF168320E1D8D3008C40C4 /* logo-1024-2.png in Resources */,
-				89BF168420E1D8D3008C40C4 /* XZB_LaunchImage.png in Resources */,
-				89BF168520E1D8D3008C40C4 /* XZB_LaunchImage@2x.png in Resources */,
-				89BF168620E1D8D3008C40C4 /* XZB_LaunchImage@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,21 +274,12 @@
 			files = (
 				8939E17420DCFAA4005D3877 /* Mp3RecordWriter.m in Sources */,
 				8939E16F20DCFAA4005D3877 /* AmrRecordWriter.m in Sources */,
-				8946CE7520E07CFA00A88EF6 /* AmrPlayerReader.m in Sources */,
 				8939E17020DCFAA4005D3877 /* CafRecordWriter.m in Sources */,
-				8946CE7620E07CFA00A88EF6 /* MLAudioPlayer.m in Sources */,
 				8939E14420DCF469005D3877 /* ViewController.m in Sources */,
 				8939E14F20DCF46A005D3877 /* main.m in Sources */,
 				8939E14120DCF469005D3877 /* AppDelegate.m in Sources */,
 				8939E17120DCFAA4005D3877 /* MLAudioMeterObserver.m in Sources */,
 				8939E17220DCFAA4005D3877 /* MLAudioRecorder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89BF167820E1D44A008C40C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,48 +471,6 @@
 			};
 			name = Release;
 		};
-		89BF168020E1D44A008C40C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5AGKMCU79F;
-				INFOPLIST_FILE = QiTestImg/Info.plist;
-				INSTALL_PATH = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.primeCloud.QiTestImg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		89BF168120E1D44A008C40C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 5AGKMCU79F;
-				INFOPLIST_FILE = QiTestImg/Info.plist;
-				INSTALL_PATH = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.primeCloud.QiTestImg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,15 +488,6 @@
 			buildConfigurations = (
 				8939E15320DCF46A005D3877 /* Debug */,
 				8939E15420DCF46A005D3877 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		89BF167F20E1D44A008C40C4 /* Build configuration list for PBXNativeTarget "QiTestImg" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				89BF168020E1D44A008C40C4 /* Debug */,
-				89BF168120E1D44A008C40C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
