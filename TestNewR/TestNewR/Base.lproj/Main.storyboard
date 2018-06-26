@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HNZ-hx-F9L"/>
+                        <viewControllerLayoutGuide type="bottom" id="DLw-AE-b3g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vR4-44-DTF">
+                                <rect key="frame" x="84" y="88" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KIc-DW-8fJ"/>
+                                    <constraint firstAttribute="width" constant="50" id="jdg-IB-EvS"/>
+                                </constraints>
+                                <state key="normal" title="录音"/>
+                                <connections>
+                                    <action selector="didClickRecordButon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4e-Yb-GoB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzy-ku-Y6F">
+                                <rect key="frame" x="245" y="88" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cR4-SJ-oUR"/>
+                                    <constraint firstAttribute="width" constant="50" id="hQ4-e2-UAE"/>
+                                </constraints>
+                                <state key="normal" title="停止"/>
+                                <connections>
+                                    <action selector="didClickPlaybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4x-xA-1M2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rzy-ku-Y6F" firstAttribute="top" secondItem="HNZ-hx-F9L" secondAttribute="bottom" constant="68" id="9VV-72-2gQ"/>
+                            <constraint firstItem="vR4-44-DTF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="84" id="AY9-3G-P9a"/>
+                            <constraint firstItem="Rzy-ku-Y6F" firstAttribute="leading" secondItem="vR4-44-DTF" secondAttribute="trailing" constant="111" id="JFK-ea-oxX"/>
+                            <constraint firstItem="vR4-44-DTF" firstAttribute="top" secondItem="HNZ-hx-F9L" secondAttribute="bottom" constant="68" id="oM4-Ec-Yt5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
