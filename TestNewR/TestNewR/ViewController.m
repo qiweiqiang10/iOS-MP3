@@ -130,7 +130,7 @@
     [_audioPlayer play];
 
 }
-
+//计算文件大小
 - (long long) fileSizeAtPath:(NSString*) filePath{
     NSFileManager* manager = [NSFileManager defaultManager];
     if ([manager fileExistsAtPath:filePath]){
