@@ -40,15 +40,29 @@
                                 </constraints>
                                 <state key="normal" title="停止"/>
                                 <connections>
-                                    <action selector="didClickPlaybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4x-xA-1M2"/>
+                                    <action selector="didClickStopButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVV-cV-SSB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jY-1T-ZpT">
+                                <rect key="frame" x="162" y="205" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.60784313729999995" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="60b-hg-LWh"/>
+                                    <constraint firstAttribute="width" constant="50" id="OMR-x3-8gv"/>
+                                </constraints>
+                                <state key="normal" title="播放"/>
+                                <connections>
+                                    <action selector="didClickPlayButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i3M-QQ-4wc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="9jY-1T-ZpT" firstAttribute="top" secondItem="HNZ-hx-F9L" secondAttribute="bottom" constant="185" id="4nS-SB-BdH"/>
                             <constraint firstItem="Rzy-ku-Y6F" firstAttribute="top" secondItem="HNZ-hx-F9L" secondAttribute="bottom" constant="68" id="9VV-72-2gQ"/>
                             <constraint firstItem="vR4-44-DTF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="84" id="AY9-3G-P9a"/>
                             <constraint firstItem="Rzy-ku-Y6F" firstAttribute="leading" secondItem="vR4-44-DTF" secondAttribute="trailing" constant="111" id="JFK-ea-oxX"/>
+                            <constraint firstItem="9jY-1T-ZpT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="162" id="cTc-bX-pSw"/>
                             <constraint firstItem="vR4-44-DTF" firstAttribute="top" secondItem="HNZ-hx-F9L" secondAttribute="bottom" constant="68" id="oM4-Ec-Yt5"/>
                         </constraints>
                     </view>

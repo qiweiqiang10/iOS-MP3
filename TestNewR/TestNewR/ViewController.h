@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (IBAction)didClickRecordButon:(id)sender;
-- (IBAction)didClickPlaybutton:(id)sender;
 
+- (IBAction)didClickRecordButon:(id)sender;
+- (IBAction)didClickStopButtonAction:(id)sender;
+
+
+
+- (IBAction)didClickPlayButtonAction:(id)sender;
 
 
 

@@ -98,7 +98,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+//点击录音按钮
 - (IBAction)didClickRecordButon:(id)sender {
 
     [[AVAudioSession sharedInstance]requestRecordPermission:^(BOOL granted) {
@@ -109,17 +109,15 @@
         }
     }];
 
-
-
 }
-
-- (IBAction)didClickPlaybutton:(id)sender {
+//点击停止按钮
+- (IBAction)didClickStopButtonAction:(id)sender {
     [self.recorder stopRecording];
     NSLog(@"%@-------%@",_amrWriter.filePath,_mp3Writer.filePath);
 
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
+//点击播放按钮
+- (IBAction)didClickPlayButtonAction:(id)sender {
     [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error:nil];
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
     if (_audioPlayer.isPlaying) {
@@ -130,7 +128,6 @@
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:self.mp3Writer.filePath] error:nil];
     _audioPlayer.delegate = self;
     [_audioPlayer play];
-
 
 }
 
